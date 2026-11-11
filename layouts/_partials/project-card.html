@@ -1,0 +1,23 @@
+<article class="project-card">
+    {{- $title := .Title }}
+    {{- with .Params.image }}
+    <img class="project-cover" src="{{ . | relURL }}" alt="">
+    {{- end }}
+    <div class="project-body">
+        <h2>
+            {{- with $.Params.source }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>
+            {{- else }}
+            {{ $title }}
+            {{- end }}
+        </h2>
+        <p>{{ .Description }}</p>
+        {{- with .Params.tags }}
+        <div class="project-tags">
+            {{- range . }}
+            <span>{{ . }}</span>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+</article>
