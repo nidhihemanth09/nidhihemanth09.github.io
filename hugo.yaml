@@ -2,3 +2,41 @@ baseURL: 'https://nidhihemanth09.github.io/'
 locale: en-us
 title: 'nidhihemanth'
 theme: PaperMod
+
+params:
+  env: production
+  description: "nidhihemanth - Nidhi"
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  defaultTheme: auto
+  homeInfoParams:
+    Title: Hi, I am Nidhi 👋
+    Content: '{{< home-intro >}}'
+  socialIcons:
+    - name: github
+      url: 'https://github.com/nidhihemanth'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/nidhi-hemanth/'
+    - name: leetcode
+      url: 'https://leetcode.com/u/vintage_kraft/'
+    - name: cv
+      title: "Resume"
+      url: 'https://drive.google.com/file/d/1QwF64tTA0gQs0gfnFvbm7Qioro0tXr6c/view?usp=drive_link'
+languages:
+  en:
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 5
+        - name: Blog
+          url: blogs
+          weight: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
