@@ -14,6 +14,21 @@
         flex-direction: column;
         gap: 16px;
     }
+    a.project-card {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    a.project-card:hover,
+    a.project-card:focus,
+    a.project-card:focus-visible,
+    a.project-card:active,
+    a.project-card:visited {
+        color: inherit;
+        text-decoration: none;
+        outline: none;
+    }
     .project-card {
         width: 100%;
         min-width: 0;
@@ -54,16 +69,6 @@
         font-size: 20px;
         line-height: 1.35;
         font-weight: 600;
-    }
-    .project-card h2 a:any-link {
-        color: var(--primary);
-        font-weight: inherit;
-        text-decoration: none;
-    }
-    .project-card h2 a:hover,
-    .project-card h2 a:focus-visible {
-        text-decoration: underline;
-        text-underline-offset: 0.18em;
     }
     .project-card p {
         margin: 0;

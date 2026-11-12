@@ -1,16 +1,15 @@
+{{- $title := .Title }}
+{{- $source := .Params.source }}
+{{- if $source }}
+<a class="project-card" href="{{ $source }}" target="_blank" rel="noopener noreferrer">
+{{- else }}
 <article class="project-card">
-    {{- $title := .Title }}
+{{- end }}
     {{- with .Params.image }}
     <img class="project-cover" src="{{ . | relURL }}" alt="">
     {{- end }}
     <div class="project-body">
-        <h2>
-            {{- with $.Params.source }}
-            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>
-            {{- else }}
-            {{ $title }}
-            {{- end }}
-        </h2>
+        <h2>{{ $title }}</h2>
         <p>{{ .Description }}</p>
         {{- with .Params.tags }}
         <div class="project-tags">
@@ -20,4 +19,8 @@
         </div>
         {{- end }}
     </div>
+{{- if $source }}
+</a>
+{{- else }}
 </article>
+{{- end }}
