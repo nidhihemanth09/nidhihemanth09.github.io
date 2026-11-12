@@ -1,23 +1,23 @@
-<p style="font-family: 'IBM Plex Sans', sans-serif; color: #2e353b;">
-I’m a <span style="color: #1d1f21; font-weight: 700;">Software Engineer</span>
-with <span style="color: #1d1f21; font-weight: 700;">3+ years</span> of experience
+<p class="home-lead">
+I’m a <span class="home-emph">Software Engineer</span>
+with <span class="home-emph">3+ years</span> of experience
 working primarily as a Backend Engineer, currently at
-<span style="color: #526174; font-weight: 600; background: #E9EDF2; padding: 2px 6px; border-radius: 4px;">Moody's Analytics</span>
+<span class="home-pill">Moody's Analytics</span>
 and previously at
-<span style="color: #526174; font-weight: 600; background: #E9EDF2; padding: 2px 6px; border-radius: 4px;">Deutsche Bank</span>.<br>
+<span class="home-pill">Deutsche Bank</span>.<br>
 I have a BS in Computer Science and Engineering from one of the top institutes in Bangalore, India.
 </p>
 <p>
-<span style="color: #4b5560; font-style: italic;">
+<span class="home-closer">
 I enjoy building things, solving problems and exploring new technologies. 🍜
 </span>
 </p>
-<div style="display: flex; flex-wrap: wrap; align-items: center; column-gap: 8px; row-gap: 8px; margin-bottom: 8px">
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">Backend</span>
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">Distributed Systems</span>
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">Microservices</span>
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">Databases</span>
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">System Design</span>
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">Cloud</span>
-<span style="background: #ffffff; color: #2c3338; border: 1px solid #e4e4e4; padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;">AI</span>
+<div class="home-skills">
+<span>Backend</span>
+<span>Distributed Systems</span>
+<span>Microservices</span>
+<span>Databases</span>
+<span>System Design</span>
+<span>Cloud</span>
+<span>AI</span>
 </div>

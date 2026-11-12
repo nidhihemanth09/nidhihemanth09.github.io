@@ -4,5 +4,39 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 <style>
     .home-info { font-family: "IBM Plex Sans", sans-serif; }
+    .home-info .home-lead { color: #2e353b; }
+    .home-info .home-emph { color: #1d1f21; font-weight: 700; }
+    .home-info .home-pill {
+        color: #526174;
+        font-weight: 600;
+        background: #E9EDF2;
+        padding: 2px 6px;
+        border-radius: 4px;
+    }
+    .home-info .home-closer { color: #4b5560; font-style: italic; }
+    .home-info .home-skills {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 8px;
+        row-gap: 8px;
+        margin-bottom: 8px;
+    }
+    .home-info .home-skills span {
+        background: #ffffff;
+        color: #2c3338;
+        border: 1px solid #e4e4e4;
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    [data-theme="dark"] .home-info .home-lead { color: #d7dee4; }
+    [data-theme="dark"] .home-info .home-emph { color: #f4f6f7; }
+    [data-theme="dark"] .home-info .home-closer { color: #aeb6bf; }
+    [data-theme="dark"] .home-info .home-pill {
+        color: #d5dbe3;
+        background: #343941;
+    }
 </style>
 {{- end }}
