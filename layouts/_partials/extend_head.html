@@ -40,3 +40,48 @@
     }
 </style>
 {{- end }}
+{{- if and (eq .Section "blogs") (eq .Kind "page") }}
+<style>
+    .post-footer .paginav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 24px;
+        margin-top: 28px;
+        padding: 14px 0 0;
+        background: none;
+        border: 0;
+        border-top: 1px solid var(--border);
+        border-radius: 0;
+    }
+    .post-footer .paginav a {
+        width: auto;
+        max-width: 46%;
+        display: inline;
+        padding: 0;
+        background: none;
+        border: 0;
+        border-radius: 0;
+        color: var(--primary);
+        font-size: 15px;
+        line-height: 1.45;
+        text-decoration: none;
+    }
+    .post-footer .paginav a:hover {
+        background: none;
+        color: var(--primary);
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+    }
+    .post-footer .paginav .next {
+        margin-inline-start: auto;
+        text-align: right;
+    }
+    .post-footer .post-tags a,
+    .post-footer .post-tags a:hover {
+        color: var(--primary);
+        background: var(--code-bg);
+        border-color: var(--border);
+    }
+</style>
+{{- end }}

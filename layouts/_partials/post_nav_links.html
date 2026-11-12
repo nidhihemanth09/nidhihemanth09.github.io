@@ -1,0 +1,13 @@
+{{- if eq .Section "blogs" }}
+{{- $pages := .CurrentSection.RegularPages }}
+{{- if and (gt (len $pages) 1) (in $pages .) }}
+<nav class="paginav" aria-label="More posts">
+    {{- with $pages.Next . }}
+    <a class="prev" href="{{ .RelPermalink }}">« Backward · {{ .Title }}</a>
+    {{- end }}
+    {{- with $pages.Prev . }}
+    <a class="next" href="{{ .RelPermalink }}">Forward · {{ .Title }} »</a>
+    {{- end }}
+</nav>
+{{- end }}
+{{- end }}
