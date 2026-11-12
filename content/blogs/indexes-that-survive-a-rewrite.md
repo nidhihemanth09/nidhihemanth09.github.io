@@ -1,6 +1,7 @@
 ---
 title: Indexes that survive a rewrite
 date: 2026-09-12
+highlight: true
 summary: How to choose indexes from the queries you actually run, and which ones to drop when a schema change makes them useless.
 tags:
   - Databases

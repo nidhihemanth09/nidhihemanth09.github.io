@@ -5,6 +5,8 @@ theme: PaperMod
 
 params:
   env: production
+  mainSections:
+    - blogs
   description: "nidhihemanth - Nidhi"
   ShowShareButtons: false
   ShowPostNavLinks: true
